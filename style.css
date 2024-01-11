@@ -1,0 +1,30 @@
+.layer-container {
+  background: #000f;
+  height: 384px;
+  width: 384px;
+  height: 384px;
+  position: absolute;
+  mix-blend-mode: screen;
+}
+
+.logo {
+  display: inline-block;
+  height: 384px;
+  width: 384px;
+  background: url("./about-logo@2x.png");
+  background-size: 384px;
+  mix-blend-mode: multiply;
+  z-index: 2;
+  position: absolute;
+}
+
+.channel-bound {
+  display: inline-block;
+  height: 384px;
+  width: 384px;
+  mask: url("./about-logo@2x.png");
+  background-size: 384px;
+  mask-size: 384px;
+  position: absolute;
+  z-index: 1;
+}
